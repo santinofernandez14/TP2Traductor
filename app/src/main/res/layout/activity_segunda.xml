@@ -13,7 +13,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Título que dice "English" -->
+
         <TextView
             android:id="@+id/tvEnglish"
             android:layout_width="wrap_content"
@@ -22,7 +22,7 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <!-- EditText para mostrar la traducción -->
+
         <EditText
             android:id="@+id/etTraduccion"
             android:layout_width="match_parent"
@@ -32,14 +32,14 @@
             android:focusable="false"
             android:textSize="24sp" />
 
-        <!-- ImageView para mostrar la imagen -->
+
         <ImageView
             android:id="@+id/ivImagen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/nada1" />
 
-        <!-- Botón para regresar a la MainActivity -->
+
         <Button
             android:id="@+id/btVolver"
             android:layout_width="match_parent"
