@@ -31,7 +31,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_1_8
     }
 
-    // Aquí está la configuración correcta de viewBinding en Kotlin Script
+
     viewBinding {
         enable = true
     }
